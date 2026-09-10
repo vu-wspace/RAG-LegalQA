@@ -4,6 +4,11 @@ Hệ thống hỏi đáp pháp luật tiếng Việt (Legal Question Answering) 
 
 Dự án được xây dựng cho **Task 2 – LegalQA** của cuộc thi **UIT Data Science Challenge 2026**.
 
+## Demo / Nguồn chạy
+
+- Notebook gốc (chạy trên Kaggle, có kết quả thực tế): [kaggle.com/code/vuwspace/rag-legalqa](https://www.kaggle.com/code/vuwspace/rag-legalqa)
+- Cuộc thi: UIT Data Science Challenge 2026 – Task 2 (LegalQA)
+
 ## Bối cảnh
 
 Trong quá trình chuyển đổi số tại Việt Nam, khối lượng văn bản pháp luật ngày càng lớn và phức tạp, khiến người dân, doanh nghiệp và cơ quan quản lý gặp khó khăn khi tra cứu, đối chiếu quy định phù hợp. Task 2 của cuộc thi yêu cầu: với mỗi câu hỏi đầu vào, hệ thống phải sinh câu trả lời bằng văn xuôi dựa trên nội dung pháp luật, đúng ngữ cảnh và văn phong pháp lý như các chuyên gia biên soạn. Dữ liệu dùng chung cho cả 2 tác vụ của cuộc thi gồm khoảng **8.500 văn bản hành chính** do Ban Tổ chức cung cấp.
