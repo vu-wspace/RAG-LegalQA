@@ -2,6 +2,8 @@
 
 Hệ thống hỏi đáp pháp luật tiếng Việt (Legal Question Answering) ứng dụng kiến trúc **Retrieval-Augmented Generation (RAG)**: truy xuất các điều khoản pháp luật liên quan từ kho văn bản hành chính, sau đó dùng mô hình ngôn ngữ lớn (LLM) để sinh câu trả lời bằng văn xuôi, có trích dẫn căn cứ pháp lý.
 
+Dự án được xây dựng cho **Task 2 – LegalQA** của cuộc thi **UIT Data Science Challenge 2026**.
+
 ## Bối cảnh
 
 Trong quá trình chuyển đổi số tại Việt Nam, khối lượng văn bản pháp luật ngày càng lớn và phức tạp, khiến người dân, doanh nghiệp và cơ quan quản lý gặp khó khăn khi tra cứu, đối chiếu quy định phù hợp. Task 2 của cuộc thi yêu cầu: với mỗi câu hỏi đầu vào, hệ thống phải sinh câu trả lời bằng văn xuôi dựa trên nội dung pháp luật, đúng ngữ cảnh và văn phong pháp lý như các chuyên gia biên soạn. Dữ liệu dùng chung cho cả 2 tác vụ của cuộc thi gồm khoảng **8.500 văn bản hành chính** do Ban Tổ chức cung cấp.
